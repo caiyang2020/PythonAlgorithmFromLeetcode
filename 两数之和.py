@@ -1,3 +1,10 @@
+"""
+    nums为一个由int类型组成的数组
+    target为一个int 类型的数据
+    输入target 在nums中寻找有没有两个数能组合成target
+    返回两个数的位置
+"""
+
 class Solution:
     def twoSum(self,nums:[int],target:int):
         n = len(nums)
